@@ -1,0 +1,11 @@
+com.cardconnect.consumersdk
+com.cardconnect.consumersdk.androidpay
+com.cardconnect.consumersdk.domain
+com.cardconnect.consumersdk.domain.request
+com.cardconnect.consumersdk.domain.response
+com.cardconnect.consumersdk.enums
+com.cardconnect.consumersdk.network
+com.cardconnect.consumersdk.swiper
+com.cardconnect.consumersdk.utils
+com.cardconnect.consumersdk.views
+com.cardconnect.consumersdk.views.payment

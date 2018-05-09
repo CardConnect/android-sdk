@@ -1,0 +1,89 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- No Action Bar application theme. -->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppToolbarTheme" parent="Base.Widget.Design.TabLayout">
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <!-- Example of Custom Theme attributes  for Consumer Activities-->
+    <style name="ConsumerAppImplementer.Theme" parent="AppConsumerTheme.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/color_primary</item>-->
+        <!--<item name="colorPrimaryDark">@color/color_primary_dark</item>-->
+        <!--<item name="colorAccent">@color/color_green</item>-->
+        <!--Setting general theme attributes-->
+        <!--<item name="consumerUiBackgroundColor">@color/color_gray</item>-->
+        <!--<item name="consumerToolbarBackgroundColor">@color/color_primary</item>-->
+        <!--<item name="consumerToolbarTextColor">@android:color/white</item>-->
+        <!--<item name="consumerToolbarNavItemTextSize">@dimen/text_size_small</item>-->
+        <!--<item name="consumerToolbarTitleTextSize">@dimen/text_size_large</item>-->
+
+        <!--<item name="consumerHeaderTextViewTextColor">@color/color_gray_dark</item>-->
+        <!--<item name="consumerHeaderTextViewTextSize">@dimen/text_size_x_small</item>-->
+
+        <!--<item name="consumerSpinningIndicatorColor">@color/color_green</item>-->
+
+        <!--<item name="consumerActionButtonTextColor">@android:color/white</item>-->
+        <!--<item name="consumerActionButtonTextSize">@dimen/text_size_small</item>-->
+        <!--<item name="consumerActionButtonBackgroundColor">@color/color_green</item>-->
+        <!--<item name="consumerDividerColor">@color/color_divider</item>-->
+
+        <!--<item name="consumerFieldsTextColor">@color/color_primary</item>-->
+        <!--<item name="consumerFieldsTextSize">@dimen/text_size_x_small</item>-->
+        <!--<item name="consumerFieldsBackgroundColor">@android:color/white</item>-->
+
+        <!--<item name="consumerCardNumberTextSize">@dimen/text_size_medium</item>-->
+        <!--<item name="consumerCardExpirationDateTextSize">@dimen/text_size_x_small</item>-->
+
+        <!--In order to change integrated UI fonts user must create a font folder with the font
+        files inside the asset resource folder, after this user must create a string resource matching
+        font type file name.-->
+        <!--<item name="consumerFontBold">@string/poppins_bold</item>-->
+        <!--<item name="consumerFontLight">@string/poppins_light</item>-->
+        <!--<item name="consumerFontMedium">@string/poppins_medium</item>-->
+        <!--<item name="consumerFontRegular">@string/poppins_regular</item>-->
+
+        <!--Accounts UI-->
+        <!--<item name="accountsDisclaimerTextViewTextColor">@color/color_gray_dark</item>-->
+        <!--<item name="accountsDisclaimerTextViewTextSize">@dimen/text_size_x_small</item>-->
+        <!--<item name="accountsDisclaimerTextViewText">@string/accounts_read_terms_text</item>-->
+
+        <!--<item name="accountsListBackgroundColor">@android:color/white</item>-->
+        <!--<item name="accountsListItemBackgroundColor">@android:color/transparent</item>-->
+        <!--<item name="accountsListItemAccessoryColor">@color/color_gray_light</item>-->
+        <!--<item name="accountsListItemTextColor">@color/color_primary</item>-->
+        <!--<item name="accountsListItemDefaultTextColor">@color/color_blue</item>-->
+        <!--<item name="accountsListItemTextSize">@dimen/text_size_x_small</item>-->
+
+        <!--Edit Account-->
+        <!--<item name="editAccountDisableTextColor">@color/color_gray_light_two</item>-->
+        <!--<item name="editAccountDefaultExplanationTextColor">@color/color_gray_dark</item>-->
+        <!--<item name="editAccountDefaultExplanationTextSize">@dimen/text_size_x_small</item>-->
+
+    </style>
+
+    <!--Example of Translucent theme for Android Pay confirmation Activity-->
+    <style name="ConsumerAppImplementer.Translucent" parent="AppConsumerTheme.Translucent">
+        <!--<item name="confirmationActionButtonTextColor">@android:color/holo_red_dark</item>-->
+        <!--<item name="consumerActionButtonTextSize">@dimen/text_size_small</item>-->
+        <!--<item name="consumerFontRegular">@string/poppins_regular</item>-->
+        <!--<item name="consumerFontLight">@string/poppins_light</item>-->
+        <!--<item name="confirmationTitleTextColor">@android:color/darker_gray</item>-->
+        <!--<item name="confirmationDividerColor">@android:color/holo_orange_light</item>-->
+    </style>
+
+</resources>
