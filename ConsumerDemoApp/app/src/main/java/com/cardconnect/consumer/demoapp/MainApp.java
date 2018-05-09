@@ -28,7 +28,7 @@ public class MainApp extends Application {
      * Initial Configuration for Consumer Api
      */
     private void setupConsumerApi() {
-        CCConsumer.getInstance().getApi().setEndPoint("https://qa.cardconnect.com:443/cardsecure/cs");
+        CCConsumer.getInstance().getApi().setEndPoint("https://fts.cardconnect.com:6443/cardsecure/cs");
         CCConsumer.getInstance().getApi().setDebugEnabled(true);
     }
 }
